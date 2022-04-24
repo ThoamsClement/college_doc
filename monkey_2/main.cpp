@@ -19,7 +19,10 @@ int main(){
     float day_out = 1.5;
     cout<<"幾天："<<peach/day_out;
 }
-/*
- * 
+/* 
+ * cout = printf 錢錢變成我們喜歡的樣子，然後他不見了。
+ * day_out = 一天的消耗量
+ * 來！day_out 前面，指定float 嘿。 啊不然用int的話他會很貼心的幫你進位，然後你就沒有分數了！讚！
+ *  
  */
 
