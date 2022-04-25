@@ -11,14 +11,18 @@
  */
 
 #include <cstdlib>
-
+#include<iostream>
 using namespace std;
 
 /*
  * 
  */
-int main(int argc, char** argv) {
-
-    return 0;
+int main(){
+    string usr_input;
+    int i;
+    cout << "輸入東西啊：";
+    cin >> usr_input ;
+    for (i=0 ; i < 5){
+        
+    }
 }
-
