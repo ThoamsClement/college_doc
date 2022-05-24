@@ -15,17 +15,16 @@
 /*
  * 
  */
-int main(int argc, char** argv) {
-    int i,sum=0,p=1;
-    int usr_input;
+int main() {
+    int i=0,sum=0,p=1;
+    int usr_input,result;
     printf("請輸入你想成的階數：");
     scanf("%d",&usr_input);
     for(i=1;i<=usr_input;i++)
     {
         p = p*i;
-        sum = sum + p;
     }
-    printf("你輸入的：%d = %d",usr_input,sum);
+    printf("你輸入的：%d = %d",usr_input,p);
     
         return (EXIT_SUCCESS);
 }
